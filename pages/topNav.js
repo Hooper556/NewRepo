@@ -12,6 +12,7 @@ export default class header extends Component {
           border: "1px solid black",
           padding: "15px 0px",
           backgroundColor: "#4D4D4D",
+          margin: "0px 0px",
         }}
       >
         <li>
