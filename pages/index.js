@@ -135,21 +135,17 @@ export default function Home() {
             </div>
             <div className={styles.secondaryPortfolioContainer}>
               <h1 className={styles.headerEditor}>Full Stack</h1>
-              <a href="https://www.google.com">
-                <div className={styles.cardTwo}>
-                  Asyncronous and Syncronous Api Calls and Concurrency Problems
-                </div>
+              <a href="https://github.com/Hooper556/Portfolio-Examples/blob/2c10a813540be5c07cfe4dc7c95f47074e83aaa1/Parsing%20Data">
+                <div className={styles.cardTwo}>Parsing Data</div>
               </a>
-              <a href="https://www.google.com">
-                <div className={styles.cardTwo}>
-                  Asyncronous and Syncronous Api Calls and Concurrency Problems
-                </div>
+              <a href="https://github.com/Hooper556/Portfolio-Examples/blob/2c10a813540be5c07cfe4dc7c95f47074e83aaa1/Testing">
+                <div className={styles.cardTwo}>Testing Database Queries</div>
               </a>
             </div>
           </div>
           <p>
-            These are some great examples of hard challenges in each area that I
-            have overcome so far while learning to code.
+            These are some great examples of hard challenges that I have
+            overcome so far while learning to code.
           </p>
         </div>
       </main>
