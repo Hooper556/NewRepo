@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useRef } from "react";
 import styles from "../styles/Home.module.css";
 import Header from "./topNav";
 
@@ -39,7 +38,7 @@ export default function Home() {
 
         {/* Skills Page */}
         <div id="skills" className={styles.pageContainer}>
-          <h1>Skills</h1>
+          <h1 style={{ textDecoration: "underline" }}>Skills</h1>
 
           <div className={styles.grid}>
             <div className={styles.card}>
@@ -65,7 +64,7 @@ export default function Home() {
         </div>
         {/* Portfolio Page */}
         <div id="portfolio" className={styles.pageContainer}>
-          <h1>Portfolio</h1>
+          <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
 
           <div className={styles.portfolio}>
             <video
@@ -109,10 +108,54 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div id="code" className={styles.pageContainer}>
+          <h1 style={{ textDecoration: "underline" }}>Code</h1>
+          <div className={styles.pageContainerTwo}>
+            <div className={styles.secondaryPortfolioContainer}>
+              <h1 className={styles.headerEditor}>Mobile</h1>
+              <a href="https://github.com/Hooper556/Portfolio-Examples/blob/7b482fc4275e95a6874317760c50a55281607c9f/Auth%20Flow">
+                <div className={styles.cardTwo}>Dynamic Auth Flow</div>
+              </a>
+              <a href="https://github.com/Hooper556/Portfolio-Examples/blob/7b482fc4275e95a6874317760c50a55281607c9f/Concurrency">
+                <div className={styles.cardTwo}>
+                  Asyncronous/Syncronous Api Calls and Concurrency Problems
+                </div>
+              </a>
+            </div>
+            <div className={styles.secondaryPortfolioContainer}>
+              <h1 className={styles.headerEditor}>Web</h1>
+              <a href="https://github.com/Hooper556/Portfolio-Examples/blob/7b482fc4275e95a6874317760c50a55281607c9f/Callbacks%20and%20Hooks">
+                <div className={styles.cardTwo}>
+                  Using Callbacks and Use Effect Hooks
+                </div>
+              </a>
+              <a href="https://github.com/Hooper556/Portfolio-Examples/blob/7b482fc4275e95a6874317760c50a55281607c9f/Routing%20and%20Linking">
+                <div className={styles.cardTwo}>Routing and Linking</div>
+              </a>
+            </div>
+            <div className={styles.secondaryPortfolioContainer}>
+              <h1 className={styles.headerEditor}>Full Stack</h1>
+              <a href="https://www.google.com">
+                <div className={styles.cardTwo}>
+                  Asyncronous and Syncronous Api Calls and Concurrency Problems
+                </div>
+              </a>
+              <a href="https://www.google.com">
+                <div className={styles.cardTwo}>
+                  Asyncronous and Syncronous Api Calls and Concurrency Problems
+                </div>
+              </a>
+            </div>
+          </div>
+          <p>
+            These are some great examples of hard challenges in each area that I
+            have overcome so far while learning to code.
+          </p>
+        </div>
       </main>
 
       <div id="contact" className={styles.contact}>
-        <h2>Contact:</h2>
+        <h2 style={{ textDecoration: "underline" }}>Contact:</h2>
         <p>Email: Wilson.3371@buckeyemail.osu.edu || Cell: 330-398-4596</p>
       </div>
     </div>
