@@ -17,27 +17,35 @@ export default function Home() {
         {/* Home Page */}
         <div className={styles.pageContainer}>
           <div className={styles.header}>
-            <div className={styles.headerWrapper}>
+            <div className={styles.headerWrapper} style={{ color: "white" }}>
               <h1>Chemical Engineer</h1>
             </div>
+
             <Image
               src="/IMG_2251.jpg"
               alt="Profilepic"
               layout="intrinsic"
-              width="300px"
-              height="400px"
+              width="270px"
+              height="360px"
               style={{ borderRadius: 10 }}
             />
-            <div className={styles.headerWrapper}>
+
+            <div className={styles.headerWrapper} style={{ color: "white" }}>
               <h1>Coder</h1>
             </div>
           </div>
 
-          <p className={styles.description}>Hello! My name is Jonah Wilson</p>
+          <p className={styles.description} style={{ color: "white" }}>
+            Jonah Wilson
+          </p>
         </div>
 
         {/* Skills Page */}
-        <div id="skills" className={styles.pageContainer}>
+        <div
+          id="skills"
+          className={styles.pageContainer}
+          style={{ color: "white" }}
+        >
           <h1 style={{ textDecoration: "underline" }}>Skills</h1>
 
           <div className={styles.grid}>
@@ -63,7 +71,11 @@ export default function Home() {
           </div>
         </div>
         {/* Portfolio Page */}
-        <div id="portfolio" className={styles.pageContainer}>
+        <div
+          id="portfolio"
+          className={styles.pageContainer}
+          style={{ color: "white" }}
+        >
           <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
 
           <div className={styles.portfolio}>
@@ -108,7 +120,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="code" className={styles.pageContainer}>
+        <div
+          id="code"
+          className={styles.pageContainer}
+          style={{ color: "white" }}
+        >
           <h1 style={{ textDecoration: "underline" }}>Code</h1>
           <div className={styles.pageContainerTwo}>
             <div className={styles.secondaryPortfolioContainer}>
@@ -150,7 +166,7 @@ export default function Home() {
         </div>
       </main>
 
-      <div id="contact" className={styles.contact}>
+      <div id="contact" className={styles.contact} style={{ color: "white" }}>
         <h2 style={{ textDecoration: "underline" }}>Contact:</h2>
         <p>Email: Wilson.3371@buckeyemail.osu.edu || Cell: 330-398-4596</p>
       </div>

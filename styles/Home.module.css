@@ -5,23 +5,21 @@
   height: 100%;
   background-image: url('/Possible portfolio picture.jpeg');
   background-size: 1000vh;
-  
+
 }
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  padding: 15px;
 }
 
 .topNav{
   width: 100%;
   height: 25px;
-  border: 1px solid black 
 }
 .pageContainer{
   width:100%;
@@ -31,6 +29,9 @@
   flex-direction: column;
   display: flex;
   
+
+
+border:1px solid black;
   
 }
 .pageContainerTwo{
@@ -44,11 +45,12 @@
 
 .header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   border-width: 10px;
   width: 100%;
-  height: 500px;
+  height: 100vh;
 }
 
 .headerWrapper{
@@ -58,7 +60,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin: 30px;
+  margin: 100px;
   
 }
 
@@ -111,9 +113,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 8rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 5rem;
+
 }
 
 .portfolio{
@@ -142,7 +145,7 @@
   flex-direction: column;
   margin: 10px;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid #eaeaea;
 }
 
 .headerEditor{
