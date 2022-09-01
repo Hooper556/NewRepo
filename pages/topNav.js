@@ -63,6 +63,21 @@ export default class header extends Component {
         </li>
         <li>
           <Link
+            to="code"
+            spy={true}
+            smooth={true}
+            style={{
+              width: "100px",
+              padding: "15px 35px",
+              cursor: "pointer",
+              color: "white",
+            }}
+          >
+            Code
+          </Link>
+        </li>
+        <li>
+          <Link
             to="contact"
             spy={true}
             smooth={true}
