@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./topNav";
+import ReactPlayer from "react-player";
 
 export default function Home() {
   return (
@@ -79,14 +80,7 @@ export default function Home() {
           <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
 
           <div className={styles.portfolio}>
-            <video
-              autoPlay
-              muted
-              loop
-              style={{ width: "500px", height: "500px" }}
-            >
-              <source src="https://firebasestorage.googleapis.com/v0/b/gladapp1.appspot.com/o/Images%2FFitnessInc%20Portfolio%20vid.mov?alt=media&token=1cf5f3b8-9891-40d7-8876-e145e6099125" />
-            </video>
+            <ReactPlayer url="https://www.youtube.com/watch?v=Q4cUa233YXI" />
             <div className={styles.portfolioExamples}>
               <div>
                 <h2>Start - Finish</h2>
