@@ -22,7 +22,7 @@ export default function Home() {
             </div>
 
             <Image
-              src="IMG_2251.jpg"
+              src="/IMG_2251.jpg"
               alt="Profilepic"
               layout="intrinsic"
               width="270px"
