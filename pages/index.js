@@ -85,7 +85,7 @@ export default function Home() {
               loop
               style={{ width: "500px", height: "500px" }}
             >
-              <source src="/FitnessInc Portfolio vid.mov" />
+              <source src="FitnessInc Portfolio vid.mov" />
             </video>
             <div className={styles.portfolioExamples}>
               <div>
