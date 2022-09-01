@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
 
       <Header />
-      <main id="home" className={styles.main}>
+      <main className={styles.main}>
         {/* Home Page */}
-        <div className={styles.pageContainer}>
+        <div id="home" className={styles.pageContainer}>
           <div className={styles.header}>
             <div className={styles.headerWrapper} style={{ color: "white" }}>
               <h1>Chemical Engineer</h1>
