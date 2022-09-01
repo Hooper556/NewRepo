@@ -85,7 +85,7 @@ export default function Home() {
               loop
               style={{ width: "500px", height: "500px" }}
             >
-              <source src="FitnessInc Portfolio vid.mov" />
+              <source src="https://firebasestorage.googleapis.com/v0/b/gladapp1.appspot.com/o/Images%2FFitnessInc%20Portfolio%20vid.mov?alt=media&token=1cf5f3b8-9891-40d7-8876-e145e6099125" />
             </video>
             <div className={styles.portfolioExamples}>
               <div>
