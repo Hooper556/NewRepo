@@ -108,7 +108,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h2>Data</h2>
+                <h2>Functionality</h2>
                 <p>Advanced knowledge of react hooks and CSS</p>
               </div>
             </div>
