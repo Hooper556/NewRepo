@@ -51,23 +51,32 @@ export default function Mobile(props) {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h1> React/React Native</h1>
-              Web/Mobile development respectively. Developed entire multipage
-              app with react native and multiple small websites
+              <h1 style={{ fontSize: 20 }}> React/React Native</h1>
+              <p style={{ fontSize: 12 }}>
+                Web/Mobile development respectively. Developed entire multipage
+                app with react native and multiple small websites
+              </p>
             </div>
             <div className={styles.card}>
-              <h1> Github/Repos</h1>
-              Work well with teams utilizing Github and can learn new
-              repositories quickly. Also, experienced with perforce and firebase
+              <h1 style={{ fontSize: 20 }}> Github/Repos</h1>
+              <p style={{ fontSize: 12 }}>
+                Work well with teams utilizing Github and can learn new
+                repositories quickly. Also, experienced with perforce and
+                firebase
+              </p>
             </div>
             <div className={styles.card}>
-              <h1> Automated Regression Testing</h1>
-              Silk, Silk Classic, UFT Developer, C#
+              <h1 style={{ fontSize: 20 }}> Automated Regression Testing</h1>
+              <p style={{ fontSize: 12 }}>
+                Silk, Silk Classic, UFT Developer, C#
+              </p>
             </div>
             <div className={styles.card}>
-              <h1> Elixir/Pheonix</h1>
-              Backend Development with Ecto, GenServer, and tests. Also, limited
-              knowledge of UI development
+              <h1 style={{ fontSize: 20 }}> Elixir/Pheonix</h1>
+              <p style={{ fontSize: 12 }}>
+                Backend Development with Ecto, GenServer, and tests. Also,
+                limited knowledge of UI development
+              </p>
             </div>
           </div>
         </div>
@@ -75,12 +84,15 @@ export default function Mobile(props) {
         <div
           id="portfolio"
           className={styles.pageContainer}
-          style={{ color: "white" }}
+          style={{ color: "white", height: "110vh" }}
         >
           <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
 
           <div className={styles.portfolio}>
-            <ReactPlayer url="http://www.youtube.com/watch?v=Q4cUa233YXI" />
+            <ReactPlayer
+              url="http://www.youtube.com/watch?v=Q4cUa233YXI"
+              props={{ height: "100px" }}
+            />
             <div className={styles.portfolioExamples}>
               <div>
                 <h2>Start - Finish</h2>
@@ -97,8 +109,7 @@ export default function Mobile(props) {
                   screens.
                 </p>
               </div>
-            </div>
-            <div className={styles.portfolioExamples}>
+
               <div>
                 <h2>Firebase Backend</h2>
                 <p>
