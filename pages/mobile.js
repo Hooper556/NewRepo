@@ -89,15 +89,20 @@ export default function Mobile(props) {
           <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
 
           <div className={styles.portfolio}>
-            <ReactPlayer
-              url="http://www.youtube.com/watch?v=Q4cUa233YXI"
-              props={{ height: "100px" }}
-            />
+            <div className="player-wrapper">
+              <ReactPlayer
+                url="http://www.youtube.com/watch?v=Q4cUa233YXI"
+                width="100%"
+                height="100%"
+                className="react-player"
+              />
+            </div>
+
             <div className={styles.portfolioExamples}>
               <div>
                 <h2>Start - Finish</h2>
                 <p>
-                  I developed the app you see to your left from scratch using
+                  I developed the app you see in the video from scratch using
                   React Native and Expo.
                 </p>
               </div>
