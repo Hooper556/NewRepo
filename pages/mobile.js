@@ -84,7 +84,7 @@ export default function Mobile(props) {
         <div
           id="portfolio"
           className={styles.pageContainer}
-          style={{ color: "white", height: "110vh" }}
+          style={{ color: "white" }}
         >
           <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
 
@@ -100,15 +100,15 @@ export default function Mobile(props) {
 
             <div className={styles.portfolioExamples}>
               <div>
-                <h2 style={{ fontSize: 16 }}>Start - Finish</h2>
-                <p style={{ fontSize: 13 }}>
+                <h2 style={{ fontSize: 20 }}>Start - Finish</h2>
+                <p style={{ fontSize: 15 }}>
                   I developed the app you see in the video from scratch using
                   React Native and Expo.
                 </p>
               </div>
               <div>
-                <h2 style={{ fontSize: 16 }}>Navigation</h2>
-                <p style={{ fontSize: 13 }}>
+                <h2 style={{ fontSize: 20 }}>Navigation</h2>
+                <p style={{ fontSize: 15 }}>
                   The app has deep linking enabled with its own AASA server. It
                   also has local bottom tab navigation to switch between
                   screens.
@@ -116,16 +116,16 @@ export default function Mobile(props) {
               </div>
 
               <div>
-                <h2 style={{ fontSize: 16 }}>Firebase Backend</h2>
-                <p style={{ fontSize: 13 }}>
+                <h2 style={{ fontSize: 20 }}>Firebase Backend</h2>
+                <p style={{ fontSize: 15 }}>
                   This app uses firebase as its api for storage and data. I am
                   able to work with the modular or the namespaced version of
                   firebase
                 </p>
               </div>
               <div>
-                <h2 style={{ fontSize: 16 }}>Functionality</h2>
-                <p style={{ fontSize: 13 }}>
+                <h2 style={{ fontSize: 20 }}>Functionality</h2>
+                <p style={{ fontSize: 15 }}>
                   Advanced knowledge of react hooks and CSS
                 </p>
               </div>
@@ -135,7 +135,7 @@ export default function Mobile(props) {
         <div
           id="code"
           className={styles.pageContainer}
-          style={{ color: "white", height: "180vh" }}
+          style={{ color: "white", height: "150vh" }}
         >
           <h1 style={{ textDecoration: "underline" }}>Code</h1>
           <div className={styles.pageContainerTwo}>
@@ -171,7 +171,7 @@ export default function Mobile(props) {
               </a>
             </div>
           </div>
-          <p>
+          <p style={{ padding: "5px", margin: "10px" }}>
             These are some great examples of hard challenges that I have
             overcome so far while learning to code.
           </p>
