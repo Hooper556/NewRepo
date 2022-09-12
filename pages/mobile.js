@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Mobile.module.css";
-import Header from "./topNav";
+import MobileHeader from "./topNavMobile";
 import ReactPlayer from "react-player";
 
 export default function Mobile(props) {
@@ -13,7 +13,7 @@ export default function Mobile(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <MobileHeader />
       <main className={styles.main}>
         {/* Home Page */}
         <div id="home" className={styles.pageContainer}>
@@ -27,7 +27,7 @@ export default function Mobile(props) {
               alt="Profilepic"
               layout="intrinsic"
               width={props.width / 2}
-              height={(props.width * 3) / 4}
+              height={(props.width * 2) / 3}
               style={{ borderRadius: 10 }}
             />
 
@@ -135,7 +135,7 @@ export default function Mobile(props) {
         <div
           id="code"
           className={styles.pageContainer}
-          style={{ color: "white", height: "200vh" }}
+          style={{ color: "white", height: "180vh" }}
         >
           <h1 style={{ textDecoration: "underline" }}>Code</h1>
           <div className={styles.pageContainerTwo}>
