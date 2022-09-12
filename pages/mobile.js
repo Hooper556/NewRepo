@@ -100,15 +100,15 @@ export default function Mobile(props) {
 
             <div className={styles.portfolioExamples}>
               <div>
-                <h2>Start - Finish</h2>
-                <p>
+                <h2 style={{ fontSize: 16 }}>Start - Finish</h2>
+                <p style={{ fontSize: 13 }}>
                   I developed the app you see in the video from scratch using
                   React Native and Expo.
                 </p>
               </div>
               <div>
-                <h2>Navigation</h2>
-                <p>
+                <h2 style={{ fontSize: 16 }}>Navigation</h2>
+                <p style={{ fontSize: 13 }}>
                   The app has deep linking enabled with its own AASA server. It
                   also has local bottom tab navigation to switch between
                   screens.
@@ -116,16 +116,18 @@ export default function Mobile(props) {
               </div>
 
               <div>
-                <h2>Firebase Backend</h2>
-                <p>
+                <h2 style={{ fontSize: 16 }}>Firebase Backend</h2>
+                <p style={{ fontSize: 13 }}>
                   This app uses firebase as its api for storage and data. I am
                   able to work with the modular or the namespaced version of
                   firebase
                 </p>
               </div>
               <div>
-                <h2>Functionality</h2>
-                <p>Advanced knowledge of react hooks and CSS</p>
+                <h2 style={{ fontSize: 16 }}>Functionality</h2>
+                <p style={{ fontSize: 13 }}>
+                  Advanced knowledge of react hooks and CSS
+                </p>
               </div>
             </div>
           </div>
@@ -133,7 +135,7 @@ export default function Mobile(props) {
         <div
           id="code"
           className={styles.pageContainer}
-          style={{ color: "white" }}
+          style={{ color: "white", height: "200vh" }}
         >
           <h1 style={{ textDecoration: "underline" }}>Code</h1>
           <div className={styles.pageContainerTwo}>
