@@ -32,7 +32,7 @@ export default function Desktop() {
             />
 
             <div className={styles.headerWrapper} style={{ color: "white" }}>
-              <h1>Coder</h1>
+              <h1>Junior Developer</h1>
             </div>
           </div>
 
