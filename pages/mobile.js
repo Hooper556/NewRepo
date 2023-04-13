@@ -32,7 +32,7 @@ export default function Mobile(props) {
             />
 
             <div className={styles.headerWrapper} style={{ color: "white" }}>
-              <h1>Junior Developer</h1>
+              <h1>Software Engineer</h1>
             </div>
           </div>
 
@@ -72,10 +72,10 @@ export default function Mobile(props) {
               </p>
             </div>
             <div className={styles.card}>
-              <h1 style={{ fontSize: 20 }}> Elixir/Pheonix</h1>
+              <h1 style={{ fontSize: 20 }}> Desktop Development</h1>
               <p style={{ fontSize: 12 }}>
-                Backend Development with Ecto, GenServer, and tests. Also,
-                limited knowledge of UI development
+                Helped develop and maintain a large C# .NET desktop application.
+                Utilized SQLite as local DB.
               </p>
             </div>
           </div>
