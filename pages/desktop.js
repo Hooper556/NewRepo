@@ -32,7 +32,7 @@ export default function Desktop() {
             />
 
             <div className={styles.headerWrapper} style={{ color: "white" }}>
-              <h1>Junior Developer</h1>
+              <h1>Software Engineer</h1>
             </div>
           </div>
 
@@ -65,9 +65,9 @@ export default function Desktop() {
               Silk, Silk Classic, UFT Developer, C#
             </div>
             <div className={styles.card}>
-              <h1> Elixir/Pheonix</h1>
-              Backend Development with Ecto, GenServer, and tests. Also, limited
-              knowledge of UI development
+              <h1> Desktop Development</h1>
+              Helped develop and maintain a large C# .NET desktop application.
+              Utilized SQLite as local DB.
             </div>
           </div>
         </div>
