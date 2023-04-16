@@ -23,7 +23,7 @@ export default function Mobile(props) {
             </div>
 
             <Image
-              src="/IMG_2251.jpg"
+              src="/My project-1.jpg"
               alt="Profilepic"
               layout="intrinsic"
               width={props.width / 2}

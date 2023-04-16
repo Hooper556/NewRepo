@@ -23,10 +23,10 @@ export default function Desktop() {
             </div>
 
             <Image
-              src="/IMG_2251.jpg"
+              src="/My project-1.jpg"
               alt="Profilepic"
               layout="intrinsic"
-              width="270px"
+              width="290px"
               height="360px"
               style={{ borderRadius: 10 }}
             />
