@@ -23,7 +23,7 @@ function Background() {
             value: "#806517",
           },
         },
-        fpsLimit: 40,
+        fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
