@@ -12,6 +12,7 @@ export default class MobileHeader extends Component {
           padding: "15px 0px",
           backgroundColor: "#4D4D4D",
           margin: "0px 0px",
+          zIndex: 5,
         }}
       >
         <li>

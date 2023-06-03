@@ -9,9 +9,9 @@ export default class header extends Component {
           display: "flex",
           listStyle: "none",
           justifyContent: "flex-end",
-
+          zIndex: 5,
           padding: "15px 0px",
-          backgroundColor: "#4D4D4D",
+          backgroundColor: "#a49470",
           margin: "0px 0px",
         }}
       >

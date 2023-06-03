@@ -3,9 +3,8 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/gladapp1.appspot.com/o/Images%2FPossible%20Portfolio%20picture.jpeg?alt=media&token=23cfafe4-144f-4ad5-9151-ca77e3a2e00c');
+  /* background-image: url('https://firebasestorage.googleapis.com/v0/b/gladapp1.appspot.com/o/Images%2FPossible%20Portfolio%20picture.jpeg?alt=media&token=23cfafe4-144f-4ad5-9151-ca77e3a2e00c'); */
   background-size: 1000vh;
-
 }
 .main {
   min-height: 100vh;
@@ -15,6 +14,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  z-index: 5;
 }
 
 .topNav{
@@ -32,7 +32,7 @@
   
   border-radius: 10px;
 
-border:1px solid #4D4D4D;
+border:1px solid #080808;
   
 }
 .pageContainerTwo{
@@ -127,6 +127,7 @@ border:1px solid #4D4D4D;
   flex-direction: row;
   border-width: 10px;
   width: 100%;
+  margin-left: 10px;
   /* height: 100vh; */
 }
 

@@ -14,6 +14,8 @@
     justify-content: center;
     align-items: center;
     padding: 5px;
+    z-index: 5;
+
   }
   
   .topNav{
