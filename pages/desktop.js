@@ -59,6 +59,7 @@ export default function Desktop() {
             <h1
               style={{
                 textDecoration: "underline",
+                fontSize: "50px",
               }}
             >
               Skills
@@ -93,7 +94,9 @@ export default function Desktop() {
             className={styles.pageContainer}
             style={{ color: "#e4dfd4" }}
           >
-            <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
+            <h1 style={{ textDecoration: "underline", fontSize: "50px" }}>
+              Portfolio
+            </h1>
 
             <div className={styles.portfolio}>
               <ReactPlayer url="http://www.youtube.com/watch?v=Q4cUa233YXI" />
@@ -135,7 +138,9 @@ export default function Desktop() {
             className={styles.pageContainer}
             style={{ color: "#e4dfd4" }}
           >
-            <h1 style={{ textDecoration: "underline" }}>Code</h1>
+            <h1 style={{ textDecoration: "underline", fontSize: "50px" }}>
+              Code
+            </h1>
             <div className={styles.pageContainerTwo}>
               <div className={styles.secondaryPortfolioContainer}>
                 <h1 className={styles.headerEditor}>Mobile</h1>
@@ -181,7 +186,9 @@ export default function Desktop() {
           className={styles.contact}
           style={{ color: "#e4dfd4" }}
         >
-          <h2 style={{ textDecoration: "underline" }}>Contact:</h2>
+          <h2 style={{ textDecoration: "underline", fontSize: "50px" }}>
+            Contact:
+          </h2>
           <p>Email: Wilson.3371@buckeyemail.osu.edu || Cell: 330-398-4596</p>
         </div>
       </div>
