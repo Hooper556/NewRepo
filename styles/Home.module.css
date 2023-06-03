@@ -25,11 +25,11 @@
   width:100%;
   height: 100vh;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   display: flex;
   margin: 10px;
-  
+  padding-bottom: 20px;
   border-radius: 10px;
 
 border:1px solid #080808;
@@ -37,7 +37,7 @@ border:1px solid #080808;
 }
 .pageContainerTwo{
   width:100%;
-  height: 500px;
+  height: 90%;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -91,8 +91,8 @@ border:1px solid #080808;
 
 .card {
   margin: 1rem;
-  padding: 1rem;
-  text-align: left;
+  padding: 2rem;
+  text-align: center;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
@@ -128,7 +128,7 @@ border:1px solid #080808;
   border-width: 10px;
   width: 100%;
   margin-left: 10px;
-  /* height: 100vh; */
+  height: 80vh;
 }
 
 .portfolioExamples{
