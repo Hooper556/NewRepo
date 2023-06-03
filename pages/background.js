@@ -87,7 +87,6 @@ function Background() {
             value: { min: 0.2, max: 2 },
           },
         },
-        detectRetina: true,
       }}
     />
   );
