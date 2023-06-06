@@ -4,8 +4,35 @@ import styles from "../styles/Home.module.css";
 import Header from "./topNav";
 import ReactPlayer from "react-player";
 import Background from "./background";
+import Slider from "./slider";
 
 export default function Desktop() {
+  let data = [
+    "Apple",
+    "Ball",
+    "Cat",
+    "Dog",
+    "Elephant",
+    "Fruits",
+    "Gorilla",
+    "Horse",
+    "Ink",
+    "Jug",
+    "Kite",
+    "Lemon",
+    "Orange",
+    "Paddy",
+    "Queen",
+    "Rose",
+    "Street",
+    "Tuesday",
+    "Umbrella",
+    "Vanilla",
+    "Wax",
+    "Xerox",
+    "Yarn",
+    "Zebra",
+  ];
   return (
     <>
       <Background />
@@ -64,8 +91,9 @@ export default function Desktop() {
             >
               Skills
             </h1>
+            <Slider />
 
-            <div className={styles.grid}>
+            {/* <div className={styles.grid}>
               <div className={styles.card}>
                 <h1> React/React Native</h1>
                 Web/Mobile development respectively. Developed entire multipage
@@ -86,12 +114,12 @@ export default function Desktop() {
                 Helped develop and maintain a large C# .NET desktop application.
                 Utilized SQLite as local DB.
               </div>
-            </div>
+            </div> */}
           </div>
           {/* Portfolio Page */}
           <div
             id="portfolio"
-            className={styles.pageContainer}
+            className={styles.portfolioPageContainer}
             style={{ color: "#e4dfd4" }}
           >
             <h1 style={{ textDecoration: "underline", fontSize: "50px" }}>
@@ -131,6 +159,51 @@ export default function Desktop() {
                   <p>Advanced knowledge of react hooks and CSS</p>
                 </div>
               </div>
+            </div>
+            <div className={styles.portfolio}>
+              <div className={styles.portfolioExamples}>
+                <div>
+                  <h2>UI/UX Design</h2>
+                  <p>
+                    I lead the UI/UX development of AspenTech's heat exchanger
+                    software.
+                  </p>
+                </div>
+                <div>
+                  <h2>Integration and Analysis</h2>
+                  <p>
+                    The software utilizes an in house calculation engine that
+                    communicates with the UI through a .vb interface. Utilizing
+                    the engines responses, I determine the proper data flow to
+                    achieve the desired goal.
+                  </p>
+                </div>
+              </div>
+              <div className={styles.portfolioExamples}>
+                <div>
+                  <h2>C# and .Net</h2>
+                  <p>
+                    I have advanced knowledge of events, delagates, class
+                    structures and how to apply them using the .Net platform.
+                  </p>
+                </div>
+                <div>
+                  <h2>Team Oriented</h2>
+                  <p>
+                    I developed my skills as a team player and learned how to
+                    collaborate with my teamates to reduce human error and drive
+                    an increase in efficiency.
+                  </p>
+                </div>
+              </div>
+              <Image
+                src="/heatexchangerpic.jpg"
+                alt="Profilepic"
+                layout="intrinsic"
+                width="776px"
+                height="500px"
+                style={{ borderRadius: 10 }}
+              />
             </div>
           </div>
           <div
