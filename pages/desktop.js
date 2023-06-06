@@ -7,32 +7,6 @@ import Background from "./background";
 import Slider from "./slider";
 
 export default function Desktop() {
-  let data = [
-    "Apple",
-    "Ball",
-    "Cat",
-    "Dog",
-    "Elephant",
-    "Fruits",
-    "Gorilla",
-    "Horse",
-    "Ink",
-    "Jug",
-    "Kite",
-    "Lemon",
-    "Orange",
-    "Paddy",
-    "Queen",
-    "Rose",
-    "Street",
-    "Tuesday",
-    "Umbrella",
-    "Vanilla",
-    "Wax",
-    "Xerox",
-    "Yarn",
-    "Zebra",
-  ];
   return (
     <>
       <Background />
@@ -58,10 +32,10 @@ export default function Desktop() {
               <Image
                 src="/My project-1.jpg"
                 alt="Profilepic"
-                layout="intrinsic"
-                width="290px"
-                height="360px"
-                style={{ borderRadius: 10 }}
+                width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '290px', height: '360px', borderRadius: 10  }}
               />
 
               <div
@@ -199,10 +173,10 @@ export default function Desktop() {
               <Image
                 src="/heatexchangerpic.jpg"
                 alt="Profilepic"
-                layout="intrinsic"
-                width="776px"
-                height="500px"
-                style={{ borderRadius: 10 }}
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '776px', height: '500px', borderRadius: 10  }}
               />
             </div>
           </div>
