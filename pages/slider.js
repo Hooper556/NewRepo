@@ -1,50 +1,73 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import styles from "../styles/Slider.module.css";
+import { useState, useEffect } from "react";
 
-export const data = [
-  {
-    name: "simon",
-    img: "https://imgur.com/c43aAlv.jpg",
-  },
-  {
-    name: "neo",
-    img: "https://imgur.com/RF2a3PB.jpg",
-  },
-  {
-    name: "morpheus",
-    img: "https://imgur.com/B0SNpZI.jpg",
-  },
-  {
-    name: "trinity",
-    img: "https://imgur.com/KnXHM0K.jpg",
-  },
-];
-const Card = ({ name, img }) => {
-  return (
-    <div className={styles.Card}>
-      <img src={img} alt={name} />
-      <h2>{name}</h2>
-    </div>
-  );
-};
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
 
-const CardContainer = () => (
-  <div className={styles.cardsContainer}>
-    {data.map((person) => {
-      return <Card {...person} />;
-    })}
-  </div>
-);
+function useWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
-class Slider extends React.Component {
-  render() {
-    return (
-      <div className={styles.container}>
-        <CardContainer />
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowDimensions;
+}
+
+export const CarouselItem = ({children, width})=>{
+    return(
+      <div className={styles.item} style={{width:width}}>
+        {children}
       </div>
-    );
+    )
+}
+
+const Slider = ({children}) => {
+  const [translateVal, setTranslateVal] = useState(0);
+  const [itemWidth, setItemWidth] = useState(0);
+  const { height, width } = useWindowDimensions();
+
+  function ButtonClicked(button, callback){
+
+    if(button == "right" && translateVal > -width*.75 ){
+      callback(translateVal - width/4);
+    }
+    if(button == "left"&& translateVal < 0){
+      callback(translateVal + width/4);
+    }
   }
+  return (
+    <>
+    <button style={{fontSize: "100px", backgroundColor: "rgba(0,0,0,0)", borderRadius: "10px"}}
+      onClick={()=>ButtonClicked("left", (val)=>setTranslateVal(val))}
+    >
+    {"<"}
+  </button>
+    <div className={styles.carousel}>
+      <div className={styles.inner} style={{transform: 'translate('+translateVal+'px, 0px)'}}>
+        {React.Children.map(children, (child, index)=>{
+          return React.cloneElement(child, {width:"100%"})
+        })}
+      </div>
+    </div>
+    <button style={{fontSize: "100px", backgroundColor: "rgba(0,0,0,0)", borderRadius: "10px"}}
+      onClick={()=>ButtonClicked("right", (val)=>setTranslateVal(val))}
+    >
+    {">"}
+  </button>
+  </>
+  )
 }
 
 export default Slider;

@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Header from "./topNav";
 import ReactPlayer from "react-player";
 import Background from "./background";
-import Slider from "./slider";
+import Slider, {CarouselItem} from "./slider";
 
 export default function Desktop() {
   return (
@@ -54,7 +54,7 @@ export default function Desktop() {
           {/* Skills Page */}
           <div
             id="skills"
-            className={styles.pageContainer}
+            className={styles.skillsPageContainer}
             style={{ color: "#e4dfd4" }}
           >
             <h1
@@ -65,30 +65,49 @@ export default function Desktop() {
             >
               Skills
             </h1>
-            <Slider />
-
-            {/* <div className={styles.grid}>
-              <div className={styles.card}>
-                <h1> React/React Native</h1>
-                Web/Mobile development respectively. Developed entire multipage
-                app with react native and multiple small websites
-              </div>
-              <div className={styles.card}>
-                <h1> Github/Repos</h1>
-                Work well with teams utilizing Github and can learn new
-                repositories quickly. Also, experienced with perforce and
-                firebase
-              </div>
-              <div className={styles.card}>
-                <h1> Automated Regression Testing</h1>
-                Silk, Silk Classic, UFT Developer, C#
-              </div>
-              <div className={styles.card}>
-                <h1> Desktop Development</h1>
-                Helped develop and maintain a large C# .NET desktop application.
-                Utilized SQLite as local DB.
-              </div>
-            </div> */}
+            <div className={styles.skillsButtonSliderWrapper}>
+          
+            <Slider>
+              <CarouselItem>
+                <div className={styles.card}>
+                  <h1> React/React Native</h1>
+                  <div style={{display: "flex", width: "100px"}}>
+                  <p style={{wordWrap: "break-word"}}>
+                  Web/Mobile development respectively. Developed entire multipage
+                  app with react native and multiple small websites
+                  </p>
+                  </div>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className={styles.card}>                
+                  <h1> Github/Repos</h1>
+                  <p>Work well with teams utilizing Github and can learn new
+                  repositories quickly. Also, experienced with perforce and
+                  firebase
+                  </p>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className={styles.card}>                
+                  <h1> Automated Regression Testing</h1>
+                  <p>
+                  Silk, Silk Classic, UFT Developer, C#
+                  </p>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className={styles.card}>                
+                  <h1> Desktop Development</h1>
+                  <p>
+                  Helped develop and maintain a large C# .NET desktop application.
+                  Utilized SQLite as local DB.
+                  </p>
+                </div>
+              </CarouselItem>
+            </Slider>
+            
+            </div>
           </div>
           {/* Portfolio Page */}
           <div
