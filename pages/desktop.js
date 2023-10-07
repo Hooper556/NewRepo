@@ -44,13 +44,52 @@ export default function Desktop() {
           >
             <h1
               style={{
-                textDecoration: "underline",
                 fontSize: "50px",
               }}
             >
-              Skills
+              Join The Betting Revolution
             </h1>
-            <div className={styles.skillsButtonSliderWrapper}></div>
+            <div>
+              <Image
+                src="/CompareScreenshot.jpeg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "600px",
+                  borderRadius: 10,
+                }}
+              />
+              <Image
+                src="/NewHome.jpeg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "600px",
+                  borderRadius: 10,
+                  marginRight: "100px",
+                  marginLeft: "100px",
+                  marginBottom: "100px",
+                }}
+              />
+              <Image
+                src="/OddsChangeScreenshot.jpeg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "600px",
+                  borderRadius: 10,
+                }}
+              />
+            </div>
           </div>
           {/* Portfolio Page */}
           <div
