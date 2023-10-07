@@ -196,6 +196,74 @@ export default function Desktop() {
               </div>
             </div>
           </div>
+          <div
+            style={{
+              display: "flex",
+              listStyle: "none",
+              justifyContent: "space-between",
+              zIndex: 5,
+            }}
+          >
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/downloadAppstore.svg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "300px",
+                  borderRadius: 10,
+                }}
+              />
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/instalogo2.png"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  marginRight: "100px",
+                  marginLeft: "100px",
+                  marginTop: "100px",
+                  borderRadius: 100,
+                }}
+              />
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/x_logo.webp"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  marginTop: "100px",
+
+                  borderRadius: 100,
+                }}
+              />
+            </a>
+          </div>
         </main>
 
         <div
@@ -206,7 +274,7 @@ export default function Desktop() {
           <h2 style={{ textDecoration: "underline", fontSize: "50px" }}>
             Contact:
           </h2>
-          <p>Email: Wilson.3371@buckeyemail.osu.edu || Cell: 330-398-4596</p>
+          <p>Email: KeenTechnology1@gmail.com</p>
         </div>
       </div>
     </>
