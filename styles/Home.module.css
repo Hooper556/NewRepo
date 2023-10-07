@@ -18,7 +18,7 @@
   height: 25px;
 }
 .pageContainer {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/keen-aa36a.appspot.com/o/background3.jpg?alt=media&token=db23e85e-9dc6-452a-99f5-6fe8d1341e42&_gl=1*1huzibw*_ga*MTM3MDc5MTk5OC4xNjg2MzcwODc2*_ga_CW55HF8NVT*MTY5NjcxMTk3Ny44MC4xLjE2OTY3MTIxMTEuNjAuMC4w");
+  background-image: url("../public/background3.jpg");
   background-size: cover;
   width: 100%;
   height: 90vh;

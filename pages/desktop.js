@@ -29,7 +29,7 @@ export default function Desktop() {
                   style={{ color: "white" }}
                 >
                   <h1>
-                    Leveraging 'Mathematical Advantage' to Generate Massive
+                    Leveraging "Mathematical Advantage" to Generate Massive
                     Growth in Sports Betting Profits
                   </h1>
                 </div>
@@ -142,7 +142,7 @@ export default function Desktop() {
                 <div>
                   <h2>UI/UX Design</h2>
                   <p>
-                    I lead the UI/UX development of AspenTech's heat exchanger
+                    I lead the UI/UX development of AspenTechs heat exchanger
                     software.
                   </p>
                 </div>
