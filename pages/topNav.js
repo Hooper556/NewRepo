@@ -41,13 +41,13 @@ export default class header extends Component {
 
         <div
           style={{
-            width: "30%",
+            width: "50%",
             flexDirection: "row",
             justifyContent: "flex-end",
             display: "flex",
             height: "100%",
             alignItems: "center",
-            paddingTop: "25px",
+            paddingTop: "20px",
           }}
         >
           <li>
@@ -61,9 +61,10 @@ export default class header extends Component {
                 justifyContent: "center",
                 width: "100px",
                 height: "100%",
-                padding: "25px 35px",
+                paddingRight: "50px",
                 cursor: "pointer",
                 color: "white",
+                fontSize: "20px",
               }}
             >
               Home
@@ -75,10 +76,14 @@ export default class header extends Component {
               spy={true}
               smooth={true}
               style={{
+                alignContent: "center",
+                justifyContent: "center",
                 width: "100px",
-                padding: "15px 35px",
+                height: "100%",
+                paddingRight: "50px",
                 cursor: "pointer",
                 color: "white",
+                fontSize: "20px",
               }}
             >
               Skills
@@ -90,10 +95,14 @@ export default class header extends Component {
               spy={true}
               smooth={true}
               style={{
+                alignContent: "center",
+                justifyContent: "center",
                 width: "100px",
-                padding: "15px 35px",
+                height: "100%",
+                paddingRight: "50px",
                 cursor: "pointer",
                 color: "white",
+                fontSize: "20px",
               }}
             >
               Portfolio
@@ -105,10 +114,14 @@ export default class header extends Component {
               spy={true}
               smooth={true}
               style={{
+                alignContent: "center",
+                justifyContent: "center",
                 width: "100px",
-                padding: "15px 35px",
+                height: "100%",
+                paddingRight: "50px",
                 cursor: "pointer",
                 color: "white",
+                fontSize: "20px",
               }}
             >
               Code
@@ -120,10 +133,14 @@ export default class header extends Component {
               spy={true}
               smooth={true}
               style={{
+                alignContent: "center",
+                justifyContent: "center",
                 width: "100px",
-                padding: "15px 35px",
+                height: "100%",
+                paddingRight: "100px",
                 cursor: "pointer",
                 color: "white",
+                fontSize: "20px",
               }}
             >
               Contact
