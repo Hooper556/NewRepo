@@ -44,7 +44,8 @@ export default function Desktop() {
           >
             <h1
               style={{
-                fontSize: "50px",
+                fontSize: "45px",
+                color: "white",
               }}
             >
               Analyze Differing Odds Between Sportsbooks
@@ -95,11 +96,105 @@ export default function Desktop() {
           <div
             id="portfolio"
             className={styles.portfolioPageContainer}
+            style={{ color: "#e4dfd4", marginTop: "50px" }}
+          >
+            <h1 style={{ fontSize: "45px", color: "white" }}>
+              Arbitrage and Expected Value Betting Strategies
+            </h1>
+
+            <div
+              style={{
+                width: "100%",
+                height: "80vh",
+                alignItems: "center",
+                justifyContent: "space-between",
+                flexDirection: "row",
+                display: "flex",
+                maxWidth: "1800px",
+                paddingLeft: "400px",
+                paddingRight: "400px",
+              }}
+            >
+              <div
+                style={{
+                  width: "45%",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  borderRadius: "10px",
+                  textAlign: "center",
+                  paddingLeft: "20px",
+                  paddingRight: "20px",
+                  paddingBottom: "20px",
+                }}
+              >
+                <h1 style={{ fontSize: "40px" }}>Guarantee Profits</h1>
+                <h3>
+                  Explore the world of calculated wins with the arbitrage engine
+                </h3>
+              </div>
+              <Image
+                src="/Arbopen.jpeg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "600px",
+                  borderRadius: 10,
+                }}
+              />
+            </div>
+          </div>
+          <div
+            id="portfolio"
+            className={styles.portfolioPageContainer}
             style={{ color: "#e4dfd4" }}
           >
-            <h1 style={{ fontSize: "50px" }}>
-              Arbitage and Expected Value Betting Strategies
-            </h1>
+            <div
+              style={{
+                width: "100%",
+                height: "80vh",
+                alignItems: "center",
+                justifyContent: "space-between",
+                flexDirection: "row",
+                display: "flex",
+                maxWidth: "1800px",
+                paddingLeft: "400px",
+                paddingRight: "400px",
+              }}
+            >
+              <Image
+                src="/EVScreenshot.jpeg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "600px",
+                  borderRadius: 10,
+                }}
+              />
+              <div
+                style={{
+                  width: "45%",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  borderRadius: "10px",
+                  textAlign: "center",
+                  paddingLeft: "20px",
+                  paddingRight: "20px",
+                  paddingBottom: "20px",
+                }}
+              >
+                <h1 style={{ fontSize: "40px" }}>Expect More Value</h1>
+                <h3>
+                  Make higher probability bets with the Expected Value Bet
+                  calculation engine
+                </h3>
+              </div>
+            </div>
           </div>
         </main>
 
