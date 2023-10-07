@@ -59,7 +59,7 @@ export default function Desktop() {
                 sizes="100vw"
                 style={{
                   width: "300px",
-                  height: "600px",
+                  height: "649px",
                   borderRadius: 10,
                 }}
               />
@@ -71,7 +71,7 @@ export default function Desktop() {
                 sizes="100vw"
                 style={{
                   width: "300px",
-                  height: "600px",
+                  height: "649px",
                   borderRadius: 10,
                   marginRight: "100px",
                   marginLeft: "100px",
@@ -86,7 +86,7 @@ export default function Desktop() {
                 sizes="100vw"
                 style={{
                   width: "300px",
-                  height: "600px",
+                  height: "649px",
                   borderRadius: 10,
                 }}
               />
@@ -140,7 +140,7 @@ export default function Desktop() {
                 sizes="100vw"
                 style={{
                   width: "300px",
-                  height: "600px",
+                  height: "649px",
                   borderRadius: 10,
                 }}
               />
@@ -172,7 +172,7 @@ export default function Desktop() {
                 sizes="100vw"
                 style={{
                   width: "300px",
-                  height: "600px",
+                  height: "649px",
                   borderRadius: 10,
                 }}
               />
