@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-scroll";
+import Image from "next/image";
 
 export default class MobileHeader extends Component {
   render() {
@@ -7,90 +7,34 @@ export default class MobileHeader extends Component {
       <ul
         style={{
           display: "flex",
-          listStyle: "none",
-          justifyContent: "space-between",
-          padding: "15px 0px",
-          backgroundColor: "#4D4D4D",
-          margin: "0px 0px",
+          justifyContent: "flex-start",
           zIndex: 5,
+          backgroundColor: "#3FA0EF",
+          margin: "0px 0px",
         }}
       >
-        <li>
-          <Link
-            activeClass="active"
-            to="home"
-            spy={true}
-            smooth={true}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Image
+            src="/KeenIcon.png"
+            width={0}
+            height={0}
+            sizes="100vw"
             style={{
-              width: "15vw",
-              padding: "0px 15px",
-              cursor: "pointer",
-              color: "white",
+              width: "25px",
+              height: "25px",
+              borderRadius: 5,
+              marginRight: "10px",
             }}
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="skills"
-            spy={true}
-            smooth={true}
-            style={{
-              width: "15vw",
-              padding: "15px 15px",
-              cursor: "pointer",
-              color: "white",
-            }}
-          >
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            style={{
-              width: "15vw",
-              padding: "15px 15px",
-              cursor: "pointer",
-              color: "white",
-            }}
-          >
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="code"
-            spy={true}
-            smooth={true}
-            style={{
-              width: "15vw",
-              padding: "15px 15px",
-              cursor: "pointer",
-              color: "white",
-            }}
-          >
-            Code
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            style={{
-              width: "15vw",
-              padding: "15px 15px",
-              cursor: "pointer",
-              color: "white",
-            }}
-          >
-            Contact
-          </Link>
-        </li>
+          />
+          <h2 style={{ fontSize: "14px" }}>Keen Betting</h2>
+        </div>
       </ul>
     );
   }

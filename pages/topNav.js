@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Image from "next/image";
-import { Link } from "react-scroll";
 
 export default class header extends Component {
   render() {
