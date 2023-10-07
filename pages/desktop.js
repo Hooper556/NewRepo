@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./topNav";
 import ReactPlayer from "react-player";
-import Slider, { CarouselItem } from "./slider";
 
 export default function Desktop() {
   return (
@@ -29,8 +28,8 @@ export default function Desktop() {
                   style={{ color: "white" }}
                 >
                   <h1>
-                    Leveraging "Mathematical Advantage" to Generate Massive
-                    Growth in Sports Betting Profits
+                    Leveraging &apos;Mathematical Advantage&apos; to Generate
+                    Massive Growth in Sports Betting Profits
                   </h1>
                 </div>
               </div>
@@ -51,47 +50,7 @@ export default function Desktop() {
             >
               Skills
             </h1>
-            <div className={styles.skillsButtonSliderWrapper}>
-              <Slider>
-                <CarouselItem>
-                  <div className={styles.card}>
-                    <h1> React/React Native</h1>
-                    <div style={{ display: "flex", width: "100px" }}>
-                      <p style={{ wordWrap: "break-word" }}>
-                        Web/Mobile development respectively. Developed entire
-                        multipage app with react native and multiple small
-                        websites
-                      </p>
-                    </div>
-                  </div>
-                </CarouselItem>
-                <CarouselItem>
-                  <div className={styles.card}>
-                    <h1> Github/Repos</h1>
-                    <p>
-                      Work well with teams utilizing Github and can learn new
-                      repositories quickly. Also, experienced with perforce and
-                      firebase
-                    </p>
-                  </div>
-                </CarouselItem>
-                <CarouselItem>
-                  <div className={styles.card}>
-                    <h1> Automated Regression Testing</h1>
-                    <p>Silk, Silk Classic, UFT Developer, C#</p>
-                  </div>
-                </CarouselItem>
-                <CarouselItem>
-                  <div className={styles.card}>
-                    <h1> Desktop Development</h1>
-                    <p>
-                      Helped develop and maintain a large C# .NET desktop
-                      application. Utilized SQLite as local DB.
-                    </p>
-                  </div>
-                </CarouselItem>
-              </Slider>
-            </div>
+            <div className={styles.skillsButtonSliderWrapper}></div>
           </div>
           {/* Portfolio Page */}
           <div
