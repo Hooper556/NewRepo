@@ -3,12 +3,10 @@ import Image from "next/image";
 import styles from "../styles/Mobile.module.css";
 import MobileHeader from "./topNavMobile";
 import ReactPlayer from "react-player";
-import Background from "./background";
 
 export default function Mobile(props) {
   return (
     <>
-      <Background />
       <div className={styles.container}>
         <Head>
           <title>Jonah Wilsons Portfolio</title>

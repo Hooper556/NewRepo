@@ -3,52 +3,38 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./topNav";
 import ReactPlayer from "react-player";
-import Background from "./background";
-import Slider, {CarouselItem} from "./slider";
+import Slider, { CarouselItem } from "./slider";
 
 export default function Desktop() {
   return (
     <>
-      <Background />
       <div className={styles.container}>
         <Head>
-          <title>Jonah Wilsons Portfolio</title>
-          <meta name="description" content="Jonahs portfolio" />
-          <link rel="icon" href="/favicon.ico" />
+          <title>Keen Betting</title>
+          <meta name="description" content="Premium Sports Betting Tool" />
+          <link rel="icon" href="/KeenIcon.png" />
         </Head>
 
         <Header />
         <main className={styles.main}>
           {/* Home Page */}
           <div id="home" className={styles.pageContainer}>
-            <div className={styles.header}>
-              <div
-                className={styles.headerWrapper}
-                style={{ color: "#e4dfd4" }}
-              >
-                <h1>Chemical Engineer</h1>
-              </div>
-
-              <Image
-                src="/My project-1.jpg"
-                alt="Profilepic"
-                width={0}
-  height={0}
-  sizes="100vw"
-  style={{ width: '290px', height: '360px', borderRadius: 10  }}
-              />
-
-              <div
-                className={styles.headerWrapper}
-                style={{ color: "#e4dfd4" }}
-              >
-                <h1>Software Engineer</h1>
+            <div className={styles.opacityGrid}>
+              <p className={styles.description} style={{ color: "white" }}>
+                Keen Betting
+              </p>
+              <div className={styles.header}>
+                <div
+                  className={styles.headerWrapper}
+                  style={{ color: "white" }}
+                >
+                  <h1>
+                    Leveraging 'Mathematical Advantage' to Generate Massive
+                    Growth in Sports Betting Profits
+                  </h1>
+                </div>
               </div>
             </div>
-
-            <p className={styles.description} style={{ color: "#e4dfd4" }}>
-              Jonah Wilson
-            </p>
           </div>
 
           {/* Skills Page */}
@@ -66,47 +52,45 @@ export default function Desktop() {
               Skills
             </h1>
             <div className={styles.skillsButtonSliderWrapper}>
-          
-            <Slider>
-              <CarouselItem>
-                <div className={styles.card}>
-                  <h1> React/React Native</h1>
-                  <div style={{display: "flex", width: "100px"}}>
-                  <p style={{wordWrap: "break-word"}}>
-                  Web/Mobile development respectively. Developed entire multipage
-                  app with react native and multiple small websites
-                  </p>
+              <Slider>
+                <CarouselItem>
+                  <div className={styles.card}>
+                    <h1> React/React Native</h1>
+                    <div style={{ display: "flex", width: "100px" }}>
+                      <p style={{ wordWrap: "break-word" }}>
+                        Web/Mobile development respectively. Developed entire
+                        multipage app with react native and multiple small
+                        websites
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </CarouselItem>
-              <CarouselItem>
-                <div className={styles.card}>                
-                  <h1> Github/Repos</h1>
-                  <p>Work well with teams utilizing Github and can learn new
-                  repositories quickly. Also, experienced with perforce and
-                  firebase
-                  </p>
-                </div>
-              </CarouselItem>
-              <CarouselItem>
-                <div className={styles.card}>                
-                  <h1> Automated Regression Testing</h1>
-                  <p>
-                  Silk, Silk Classic, UFT Developer, C#
-                  </p>
-                </div>
-              </CarouselItem>
-              <CarouselItem>
-                <div className={styles.card}>                
-                  <h1> Desktop Development</h1>
-                  <p>
-                  Helped develop and maintain a large C# .NET desktop application.
-                  Utilized SQLite as local DB.
-                  </p>
-                </div>
-              </CarouselItem>
-            </Slider>
-            
+                </CarouselItem>
+                <CarouselItem>
+                  <div className={styles.card}>
+                    <h1> Github/Repos</h1>
+                    <p>
+                      Work well with teams utilizing Github and can learn new
+                      repositories quickly. Also, experienced with perforce and
+                      firebase
+                    </p>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className={styles.card}>
+                    <h1> Automated Regression Testing</h1>
+                    <p>Silk, Silk Classic, UFT Developer, C#</p>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className={styles.card}>
+                    <h1> Desktop Development</h1>
+                    <p>
+                      Helped develop and maintain a large C# .NET desktop
+                      application. Utilized SQLite as local DB.
+                    </p>
+                  </div>
+                </CarouselItem>
+              </Slider>
             </div>
           </div>
           {/* Portfolio Page */}
@@ -195,7 +179,7 @@ export default function Desktop() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '776px', height: '500px', borderRadius: 10  }}
+                style={{ width: "776px", height: "500px", borderRadius: 10 }}
               />
             </div>
           </div>

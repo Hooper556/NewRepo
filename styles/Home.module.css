@@ -3,8 +3,6 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  /* background-image: url('https://firebasestorage.googleapis.com/v0/b/gladapp1.appspot.com/o/Images%2FPossible%20Portfolio%20picture.jpeg?alt=media&token=23cfafe4-144f-4ad5-9151-ca77e3a2e00c'); */
-  background-size: 1000vh;
 }
 .main {
   min-height: 100vh;
@@ -13,36 +11,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  z-index: 5;
 }
 
-.topNav{
+.topNav {
   width: 100%;
   height: 25px;
 }
-.pageContainer{
-  width:100%;
-  height: 100vh;
+.pageContainer {
+  background-image: url("../public/background3.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   display: flex;
-  margin: 10px;
-  padding-bottom: 20px;
   border-radius: 10px;
-  border:1px solid #080808;
+  max-width: 1800px;
 }
-.pageContainerTwo{
-  width:100%;
+.opacityGrid {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.pageContainerTwo {
+  width: 100%;
   height: 90vh;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   display: flex;
 }
-.portfolioPageContainer{
-  width:100%;
+.portfolioPageContainer {
+  width: 100%;
   height: 200vh;
   align-items: center;
   justify-content: space-between;
@@ -51,11 +56,11 @@
   margin: 10px;
   padding-bottom: 20px;
   border-radius: 10px;
-  border:1px solid #080808;
+  border: 1px solid #080808;
 }
 
-.skillsPageContainer{
-  width:100%;
+.skillsPageContainer {
+  width: 100%;
   height: 100vh;
   align-items: center;
   justify-content: space-between;
@@ -64,27 +69,24 @@
   margin: 10px;
   padding-bottom: 20px;
   border-radius: 10px;
-  border:1px solid #080808;
+  border: 1px solid #080808;
 }
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-width: 10px;
   width: 100%;
-  height: 100vh;
+  height: 80 vh;
 }
 
-.headerWrapper{
-  width: 30%;
+.headerWrapper {
+  width: 50%;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin: 100px;
-  
 }
 
 .centerHeader {
@@ -140,10 +142,9 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 5rem;
-  font-family: cursive;
 }
 
-.portfolio{
+.portfolio {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -154,16 +155,16 @@
   height: 80vh;
 }
 
-.portfolioExamples{
+.portfolioExamples {
   width: 30%;
   margin: 10px;
 }
 
-.contact{
+.contact {
   padding: 0 1rem;
 }
 
-.secondaryPortfolioContainer{
+.secondaryPortfolioContainer {
   display: flex;
   width: 30%;
   height: 100%;
@@ -173,7 +174,7 @@
   border: 1px solid #eaeaea;
 }
 
-.headerEditor{
+.headerEditor {
   display: flex;
   width: 100%;
   height: 40px;
@@ -182,7 +183,7 @@
   align-items: center;
 }
 
-.skillsButtonSliderWrapper{
+.skillsButtonSliderWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
