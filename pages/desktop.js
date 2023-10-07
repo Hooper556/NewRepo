@@ -205,7 +205,7 @@ export default function Desktop() {
             }}
           >
             <a
-              href="https://google.com"
+              href="https://apps.apple.com/us/app/keen-betting/id6451397700"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -223,7 +223,7 @@ export default function Desktop() {
               />
             </a>
             <a
-              href="https://google.com"
+              href="https://www.instagram.com/keenbetting/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -244,7 +244,7 @@ export default function Desktop() {
               />
             </a>
             <a
-              href="https://google.com"
+              href="https://twitter.com/KeenBetting"
               target="_blank"
               rel="noopener noreferrer"
             >
