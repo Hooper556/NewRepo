@@ -45,6 +45,7 @@ export default function Desktop() {
               style={{
                 fontSize: "45px",
                 color: "white",
+                textAlign: "center",
               }}
             >
               Analyze Differing Odds Between Sportsbooks
@@ -97,7 +98,9 @@ export default function Desktop() {
             className={styles.portfolioPageContainer}
             style={{ color: "#e4dfd4", marginTop: "50px" }}
           >
-            <h1 style={{ fontSize: "45px", color: "white" }}>
+            <h1
+              style={{ fontSize: "45px", color: "white", textAlign: "center" }}
+            >
               Arbitrage and Expected Value Betting Strategies
             </h1>
 
