@@ -112,6 +112,7 @@ export default function Mobile(props) {
                 fontSize: "20px",
                 color: "white",
                 textAlign: "center",
+                marginBottom: "50px",
               }}
             >
               Analyze Differing Odds Between Sportsbooks
@@ -181,81 +182,6 @@ export default function Mobile(props) {
                 }}
               />
             </div>
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              listStyle: "none",
-              justifyContent: "space-between",
-              zIndex: 5,
-              width: "100%",
-              flexDirection: "row",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <a
-              href="https://apps.apple.com/us/app/keen-betting/id6451397700"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/downloadAppstore.svg"
-                alt="Profilepic"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "150px",
-                  height: "150px",
-                  marginTop: "100px",
-
-                  borderRadius: 10,
-                }}
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/keenbetting/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/instalogo2.png"
-                alt="Profilepic"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "60px",
-                  height: "60px",
-                  marginRight: "30px",
-                  marginLeft: "30px",
-                  marginTop: "100px",
-                  borderRadius: 100,
-                }}
-              />
-            </a>
-            <a
-              href="https://twitter.com/KeenBetting"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/x_logo.webp"
-                alt="Profilepic"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "60px",
-                  height: "60px",
-                  marginTop: "100px",
-
-                  borderRadius: 100,
-                }}
-              />
-            </a>
           </div>
         </main>
 
