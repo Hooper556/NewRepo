@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./topNav";
-import ReactPlayer from "react-player";
 
 export default function Desktop() {
   return (
