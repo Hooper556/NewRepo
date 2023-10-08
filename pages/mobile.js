@@ -9,7 +9,7 @@ export default function Mobile(props) {
     <>
       <div className={styles.container}>
         <Head>
-          <title>Jonah Wilsons Portfolio</title>
+          <title>Keen Betting</title>
           <meta name="description" content="Premium Sports Betting Tool" />
           <link rel="icon" href="/KeenIcon.png" />
         </Head>
