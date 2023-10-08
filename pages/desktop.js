@@ -189,7 +189,7 @@ export default function Desktop() {
               >
                 <h1 style={{ fontSize: "40px" }}>Expect More Value</h1>
                 <h3>
-                  Make higher probability bets with the Expected Value Bet
+                  Make higher probability bets with the Expected Value bet
                   calculation engine
                 </h3>
               </div>
