@@ -34,6 +34,74 @@ export default function Desktop() {
               </div>
             </div>
           </div>
+          <div
+            style={{
+              display: "flex",
+              listStyle: "none",
+              justifyContent: "space-between",
+              zIndex: 5,
+            }}
+          >
+            <a
+              href="https://apps.apple.com/us/app/keen-betting/id6451397700"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/downloadAppstore.svg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "300px",
+                  height: "300px",
+                  borderRadius: 10,
+                }}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/keenbetting/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/instalogo2.png"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  marginRight: "100px",
+                  marginLeft: "100px",
+                  marginTop: "100px",
+                  borderRadius: 100,
+                }}
+              />
+            </a>
+            <a
+              href="https://twitter.com/KeenBetting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/x_logo.webp"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  marginTop: "100px",
+
+                  borderRadius: 100,
+                }}
+              />
+            </a>
+          </div>
 
           {/* Mobile App */}
           <div
@@ -194,74 +262,6 @@ export default function Desktop() {
                 </h3>
               </div>
             </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              listStyle: "none",
-              justifyContent: "space-between",
-              zIndex: 5,
-            }}
-          >
-            <a
-              href="https://apps.apple.com/us/app/keen-betting/id6451397700"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/downloadAppstore.svg"
-                alt="Profilepic"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "300px",
-                  height: "300px",
-                  borderRadius: 10,
-                }}
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/keenbetting/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/instalogo2.png"
-                alt="Profilepic"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "100px",
-                  height: "100px",
-                  marginRight: "100px",
-                  marginLeft: "100px",
-                  marginTop: "100px",
-                  borderRadius: 100,
-                }}
-              />
-            </a>
-            <a
-              href="https://twitter.com/KeenBetting"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/x_logo.webp"
-                alt="Profilepic"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "100px",
-                  height: "100px",
-                  marginTop: "100px",
-
-                  borderRadius: 100,
-                }}
-              />
-            </a>
           </div>
         </main>
 
