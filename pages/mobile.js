@@ -41,6 +41,7 @@ export default function Mobile(props) {
               style={{
                 fontSize: "20px",
                 color: "white",
+                textAlign: "center",
               }}
             >
               Analyze Differing Odds Between Sportsbooks
@@ -66,7 +67,9 @@ export default function Mobile(props) {
             className={styles.pageContainerTwo}
             style={{ color: "#e4dfd4", marginTop: "50px" }}
           >
-            <h1 style={{ fontSize: "20px", color: "white" }}>
+            <h1
+              style={{ fontSize: "20px", color: "white", textAlign: "center" }}
+            >
               Arbitrage and Expected Value Betting Strategies
             </h1>
 
