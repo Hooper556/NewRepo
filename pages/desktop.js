@@ -75,6 +75,7 @@ export default function Desktop() {
                   width: "300px",
                   height: "300px",
                   borderRadius: 10,
+                  paddingLeft: "5%",
                 }}
               />
             </a>
