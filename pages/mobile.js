@@ -56,8 +56,26 @@ export default function Mobile(props) {
                 style={{
                   width: "150px",
                   height: "150px",
-
                   borderRadius: 10,
+                }}
+              />
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.gladiatorfitnessinc.trial1&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/google-play-badge-logo.svg"
+                alt="Profilepic"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{
+                  width: "150px",
+                  height: "150px",
+                  borderRadius: 10,
+                  paddingLeft: "5%",
                 }}
               />
             </a>
