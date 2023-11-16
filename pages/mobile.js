@@ -54,8 +54,8 @@ export default function Mobile(props) {
                 height={0}
                 sizes="100vw"
                 style={{
-                  width: "150px",
-                  height: "150px",
+                  width: "100px",
+                  height: "100px",
                   borderRadius: 10,
                 }}
               />
@@ -72,10 +72,10 @@ export default function Mobile(props) {
                 height={0}
                 sizes="100vw"
                 style={{
-                  width: "150px",
-                  height: "150px",
+                  width: "100px",
+                  height: "100px",
                   borderRadius: 10,
-                  paddingLeft: "5%",
+                  paddingLeft: "10%",
                 }}
               />
             </a>
@@ -91,8 +91,8 @@ export default function Mobile(props) {
                 height={0}
                 sizes="100vw"
                 style={{
-                  width: "60px",
-                  height: "60px",
+                  width: "40px",
+                  height: "40px",
                   marginRight: "30px",
                   marginLeft: "30px",
                   borderRadius: 100,
@@ -111,8 +111,8 @@ export default function Mobile(props) {
                 height={0}
                 sizes="100vw"
                 style={{
-                  width: "60px",
-                  height: "60px",
+                  width: "40px",
+                  height: "40px",
 
                   borderRadius: 100,
                 }}
