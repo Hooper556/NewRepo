@@ -209,6 +209,7 @@ export default function Mobile(props) {
           style={{ color: "#e4dfd4" }}
         >
           <h2 style={{ textDecoration: "underline" }}>Contact:</h2>
+          <p>@ Copyright Keen Technology LLC, 2023</p>
           <p>Email: KeenTechnology1@gmail.com</p>
         </div>
       </div>
