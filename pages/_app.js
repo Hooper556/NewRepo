@@ -6,11 +6,11 @@ function MyApp({ Component, pageProps }) {
     return (
       <Head>
         <title>
-          {"Keen Betting: Unlock Smart Betting Potential - Master Arbitrage for Maximum Wins"}
+          {"Download Keen, unlock smart betting potential - master arbitrage for maximum wins"}
         </title>
         <meta
           property="og:title"
-          content="Keen Betting: Unlock Smart Betting Potential - Master Arbitrage for Maximum Wins"
+          content="Download Keen, unlock smart betting potential - master arbitrage for maximum wins"
           key="og-title"
         />
         <meta
