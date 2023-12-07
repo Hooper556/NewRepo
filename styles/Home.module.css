@@ -19,10 +19,8 @@
   height: 25px;
 }
 .pageContainer {
-  background-image: url("../public/background3.jpg");
-  background-size: cover;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
@@ -30,6 +28,7 @@
   max-width: 1800px;
 }
 .opacityGrid {
+  position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -178,4 +177,47 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+	.description {
+    margin: 5rem 0;
+    line-height: 1.5;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+	}
+  .opacityGrid {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .container{
+    overflow-x: hidden
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-width: 10px;
+    width: 100%;
+  }
+  .headerWrapper {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+  }
 }

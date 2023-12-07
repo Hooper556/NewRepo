@@ -1,34 +1,33 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Header from "./topNav";
+import Head from "next/head"
+import Image from "next/image"
+import styles from "../styles/Home.module.css"
+import Header from "./topNav"
+import Background from "../public/background3.jpg"
 
-export default function Desktop() {
+export default function Welcome() {
   return (
     <>
       <div className={styles.container}>
-        <Head>
-          <title>Keen Betting</title>
-          <meta name="description" content="Premium Sports Betting Tool" />
-          <link rel="icon" href="/KeenIcon.png" />
-        </Head>
-
         <Header />
         <main className={styles.main}>
-          {/* Home Page */}
           <div id="home" className={styles.pageContainer}>
+            <Image
+              src={Background}
+              alt="Happy coparent spending time with daughter leading her in wooded park trail"
+              objectFit="cover"
+              className="z-0 oject-cover"
+              priority
+              fill
+            />
             <div className={styles.opacityGrid}>
               <p className={styles.description} style={{ color: "white" }}>
                 Join The Betting Revolution
               </p>
               <div className={styles.header}>
-                <div
-                  className={styles.headerWrapper}
-                  style={{ color: "white" }}
-                >
+                <div className={styles.headerWrapper} style={{ color: "white" }}>
                   <h1>
-                    Leveraging &apos;Mathematical Advantage&apos; to Generate
-                    Massive Growth in Sports Betting Profits
+                    Leveraging &apos;Mathematical Advantage&apos; to Generate Massive Growth in
+                    Sports Betting Profits
                   </h1>
                 </div>
               </div>
@@ -100,11 +99,7 @@ export default function Desktop() {
                 }}
               />
             </a>
-            <a
-              href="https://twitter.com/KeenBetting"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://twitter.com/KeenBetting" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/x_logo.webp"
                 alt="Profilepic"
@@ -123,11 +118,7 @@ export default function Desktop() {
           </div>
 
           {/* Mobile App */}
-          <div
-            id="skills"
-            className={styles.skillsPageContainer}
-            style={{ color: "#e4dfd4" }}
-          >
+          <div id="skills" className={styles.skillsPageContainer} style={{ color: "#e4dfd4" }}>
             <h1
               style={{
                 fontSize: "45px",
@@ -214,9 +205,7 @@ export default function Desktop() {
                 }}
               >
                 <h1 style={{ fontSize: "40px" }}>Guarantee Profits</h1>
-                <h3>
-                  Explore the world of calculated wins with the arbitrage engine
-                </h3>
+                <h3>Explore the world of calculated wins with the arbitrage engine</h3>
               </div>
               <Image
                 src="/Arbopen.jpeg"
@@ -275,26 +264,17 @@ export default function Desktop() {
                 }}
               >
                 <h1 style={{ fontSize: "40px" }}>Expect More Value</h1>
-                <h3>
-                  Make higher probability bets with the Expected Value bet
-                  calculation engine
-                </h3>
+                <h3>Make higher probability bets with the Expected Value bet calculation engine</h3>
               </div>
             </div>
           </div>
         </main>
 
-        <div
-          id="contact"
-          className={styles.contact}
-          style={{ color: "#e4dfd4" }}
-        >
-          <h2 style={{ textDecoration: "underline", fontSize: "50px" }}>
-            Contact:
-          </h2>
+        <div id="contact" className={styles.contact} style={{ color: "#e4dfd4" }}>
+          <h2 style={{ textDecoration: "underline", fontSize: "50px" }}>Contact:</h2>
           <p>Email: KeenTechnology1@gmail.com</p>
         </div>
       </div>
     </>
-  );
+  )
 }
