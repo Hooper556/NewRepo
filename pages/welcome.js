@@ -161,7 +161,7 @@ export default function Welcome() {
           </div>
           <div
             id="portfolio"
-            className={styles.portfolioPageContainer}
+            className={styles.portfolioPageContainer2}
             style={{ color: "#e4dfd4" }}
           >
             <div className={styles.row2Container}>
