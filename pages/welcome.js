@@ -13,7 +13,7 @@ export default function Welcome() {
           <div id="home" className={styles.pageContainer}>
             <Image
               src={Background}
-              alt="Happy coparent spending time with daughter leading her in wooded park trail"
+              alt="Soccer player kicking a goal on a turf field in the night"
               objectFit="cover"
               className="z-0 oject-cover"
               priority
@@ -52,11 +52,7 @@ export default function Welcome() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{
-                  width: "300px",
-                  height: "300px",
-                  borderRadius: 10,
-                }}
+                className={styles.googleAppleButton}
               />
             </a>
             <a
@@ -70,12 +66,7 @@ export default function Welcome() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{
-                  width: "300px",
-                  height: "300px",
-                  borderRadius: 10,
-                  paddingLeft: "5%",
-                }}
+                className={styles.googleAppleButton}
               />
             </a>
             <a
@@ -89,14 +80,7 @@ export default function Welcome() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{
-                  width: "100px",
-                  height: "100px",
-                  marginRight: "100px",
-                  marginLeft: "100px",
-                  marginTop: "100px",
-                  borderRadius: 100,
-                }}
+                className={styles.socialMediaButtons}
               />
             </a>
             <a href="https://twitter.com/KeenBetting" target="_blank" rel="noopener noreferrer">
@@ -106,13 +90,7 @@ export default function Welcome() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{
-                  width: "100px",
-                  height: "100px",
-                  marginTop: "100px",
-
-                  borderRadius: 100,
-                }}
+                className={styles.socialMediaButtons}
               />
             </a>
           </div>
@@ -123,6 +101,7 @@ export default function Welcome() {
               style={{
                 fontSize: "45px",
                 color: "white",
+                textAlign: "center",
               }}
             >
               Analyze Differing Odds Between Sportsbooks
@@ -134,11 +113,7 @@ export default function Welcome() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{
-                  width: "300px",
-                  height: "649px",
-                  borderRadius: 10,
-                }}
+                className={styles.outsideImagesRow1}
               />
               <Image
                 src="/NewHome.jpeg"
@@ -161,11 +136,7 @@ export default function Welcome() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{
-                  width: "300px",
-                  height: "649px",
-                  borderRadius: 10,
-                }}
+                className={styles.outsideImagesRow1}
               />
             </div>
           </div>
@@ -175,35 +146,12 @@ export default function Welcome() {
             className={styles.portfolioPageContainer}
             style={{ color: "#e4dfd4", marginTop: "50px" }}
           >
-            <h1 style={{ fontSize: "45px", color: "white" }}>
+            <h1 style={{ fontSize: "45px", color: "white", textAlign: "center" }}>
               Arbitrage and Expected Value Betting Strategies
             </h1>
 
-            <div
-              style={{
-                width: "100%",
-                height: "80vh",
-                alignItems: "center",
-                justifyContent: "space-between",
-                flexDirection: "row",
-                display: "flex",
-                maxWidth: "1800px",
-                paddingLeft: "400px",
-                paddingRight: "400px",
-              }}
-            >
-              <div
-                style={{
-                  width: "45%",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderRadius: "10px",
-                  textAlign: "center",
-                  paddingLeft: "20px",
-                  paddingRight: "20px",
-                  paddingBottom: "20px",
-                }}
-              >
+            <div className={styles.row2Container}>
+              <div className={styles.outsideDescriptionRow2}>
                 <h1 style={{ fontSize: "40px" }}>Guarantee Profits</h1>
                 <h3>Explore the world of calculated wins with the arbitrage engine</h3>
               </div>
@@ -226,19 +174,7 @@ export default function Welcome() {
             className={styles.portfolioPageContainer}
             style={{ color: "#e4dfd4" }}
           >
-            <div
-              style={{
-                width: "100%",
-                height: "80vh",
-                alignItems: "center",
-                justifyContent: "space-between",
-                flexDirection: "row",
-                display: "flex",
-                maxWidth: "1800px",
-                paddingLeft: "400px",
-                paddingRight: "400px",
-              }}
-            >
+            <div className={styles.row2Container}>
               <Image
                 src="/EVScreenshot.jpeg"
                 alt="Profilepic"
@@ -251,18 +187,7 @@ export default function Welcome() {
                   borderRadius: 10,
                 }}
               />
-              <div
-                style={{
-                  width: "45%",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderRadius: "10px",
-                  textAlign: "center",
-                  paddingLeft: "20px",
-                  paddingRight: "20px",
-                  paddingBottom: "20px",
-                }}
-              >
+              <div className={styles.outsideDescriptionRow2}>
                 <h1 style={{ fontSize: "40px" }}>Expect More Value</h1>
                 <h3>Make higher probability bets with the Expected Value bet calculation engine</h3>
               </div>
@@ -271,8 +196,23 @@ export default function Welcome() {
         </main>
 
         <div id="contact" className={styles.contact} style={{ color: "#e4dfd4" }}>
-          <h2 style={{ textDecoration: "underline", fontSize: "50px" }}>Contact:</h2>
+          <h2 style={{ textDecoration: "underline", fontSize: "18px" }}>Contact Us:</h2>
           <p>Email: KeenTechnology1@gmail.com</p>
+          <h2 style={{ textDecoration: "underline", fontSize: "18px" }}>Social:</h2>
+          <div style={{ marginBottom: "100px" }}>
+            <a
+              href="https://www.instagram.com/keenbetting/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Instagram</p>
+            </a>
+            <a href="https://twitter.com/KeenBetting" target="_blank" rel="noopener noreferrer">
+              <p>Twitter</p>
+            </a>
+          </div>
+
+          <p>@ 2023 Keen Technology LLC</p>
         </div>
       </div>
     </>
