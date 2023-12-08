@@ -222,6 +222,11 @@
   padding-right: 20px;
   padding-bottom: 20px;
 }
+.title {
+  font-size: 45px;
+  color: "white";
+  text-align: center;
+}
 
 @media only screen and (max-width: 990px) {
   .pageContainer {
@@ -310,5 +315,10 @@
     padding-bottom: 20px;
     border-radius: 10px;
     margin-bottom: 100px;
+  }
+  .title {
+    font-size: 25px;
+    color: "white";
+    text-align: center;
   }
 }

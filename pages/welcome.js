@@ -97,15 +97,7 @@ export default function Welcome() {
 
           {/* Mobile App */}
           <div id="skills" className={styles.skillsPageContainer} style={{ color: "#e4dfd4" }}>
-            <h1
-              style={{
-                fontSize: "45px",
-                color: "white",
-                textAlign: "center",
-              }}
-            >
-              Analyze Differing Odds Between Sportsbooks
-            </h1>
+            <h1 className={styles.title}>Analyze Differing Odds Between Sportsbooks</h1>
             <div>
               <Image
                 src="/CompareScreenshot.jpeg"
@@ -146,9 +138,7 @@ export default function Welcome() {
             className={styles.portfolioPageContainer}
             style={{ color: "#e4dfd4", marginTop: "50px" }}
           >
-            <h1 style={{ fontSize: "45px", color: "white", textAlign: "center" }}>
-              Arbitrage and Expected Value Betting Strategies
-            </h1>
+            <h1 className={styles.title}>Arbitrage and Expected Value Betting Strategies</h1>
 
             <div className={styles.row2Container}>
               <div className={styles.outsideDescriptionRow2}>
