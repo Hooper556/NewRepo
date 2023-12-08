@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TD38688FXH.com.Keen.Betting",
+        "paths": ["/records/*"]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["TD38688FXH.com.Keen.Betting"]
+  },
+  "webcredentials": {
+    "apps": ["TD38688FXH.com.Keen.Betting"]
+  }
+}
