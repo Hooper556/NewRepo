@@ -325,7 +325,7 @@
     display: flex;
     padding-bottom: 20px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .title {
     font-size: 25px;
@@ -340,7 +340,7 @@
     flex-direction: column;
     display: flex;
     margin: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-radius: 10px;
   }
   .portfolioPageContainer2 {
