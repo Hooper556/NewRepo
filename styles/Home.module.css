@@ -321,4 +321,7 @@
     color: "white";
     text-align: center;
   }
+  .portfolioPageContainer {
+    display: none;
+  }
 }
