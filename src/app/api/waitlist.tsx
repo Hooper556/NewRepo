@@ -1,7 +1,7 @@
 "use server"
 
 import axios from "axios"
-import { SENDY_URL } from "@/app/constants"
+import { SENDY_URL } from "../constants"
 
 export const subscribeToEmailList = async (email: string, list_id: string) => {
   const url = `${SENDY_URL}/subscribe`
