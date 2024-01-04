@@ -1,8 +1,8 @@
 "use client"
 
 import React, { FC, ReactElement } from "react"
-import { LANDING_PAGE_WAITLIST } from "@/app/constants"
-import { subscribeToEmailList } from "@/app/api/waitlist"
+import { LANDING_PAGE_WAITLIST } from "../../app/constants"
+import { subscribeToEmailList } from "../../app/api/waitlist"
 const EmailWaitlist: FC = (props): ReactElement => {
   const [email, setEmail] = React.useState("")
   const [status, setStatus] = React.useState("not-submitted")
