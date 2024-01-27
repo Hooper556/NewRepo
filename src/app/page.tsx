@@ -19,13 +19,9 @@ export default async function Home() {
   }) {
     let src
     if (id === "expect-more-value") {
-      src = "/EVScreenshot.jpeg"
+      src = "/ev.jpeg"
     } else if (id === "guarentee-profits") {
-      src = "/Arbopen.jpeg"
-    } else if (id === "parent-gpt") {
-      src = "/gpt.png"
-    } else if (id === "data-export") {
-      src = "/history.png"
+      src = "/arb.jpeg"
     }
 
     if (type === "text-left") {
@@ -108,21 +104,21 @@ export default async function Home() {
       </h2>
       <section key="analyze-odds" className="w-full justify-center gap-20 flex flex-row">
         <Image
-          src="/CompareScreenshot.jpeg"
+          src="/shop.jpeg"
           className="rounded-[10px] hidden md:block"
           alt="comparing odds"
           width={300}
           height={649}
         />
         <Image
-          src="/NewHome.jpeg"
+          src="/home.jpeg"
           alt="sports schedule"
           width={300}
           height={649}
           className="rounded-[10px] transform md:translate-y-[-100px]"
         />
         <Image
-          src="/OddsChangeScreenshot.jpeg"
+          src="/odds-chart.jpeg"
           alt="odds change over time"
           width={300}
           height={649}
