@@ -16,10 +16,14 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const post = (await getPosts()).find((p) => p?.slug === params.blog_slug)
   return {
-    title: post?.title,
+    title: `Keen | ${post?.title}`,
     description: post?.description,
-    alternates: {
-      canonical: `https://keenbetting.com/blog/${params.blog_slug}`,
+    openGraph: {
+      title: `Keen | ${post?.title}`,
+      description: post?.description,
+      siteName: "Keen",
+      locale: "en_US",
+      type: "website",
     },
   }
 }
