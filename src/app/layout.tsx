@@ -149,6 +149,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en">
+      <meta name="apple-itunes-app" content="app-id=6451397700" />
       <body className={inter.className}>
         <header className="bg-[#3FA0EF] p-4">
           <div className="flex items-center justify-between max-w-screen-lg mx-auto px-2 md:px-4">
