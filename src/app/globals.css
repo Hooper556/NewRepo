@@ -132,9 +132,6 @@ body {
   -webkit-text-size-adjust: 110%;
   font-size: 16px;
   line-height: 1.55em;
-}
-
-body {
   min-height: 100vh;
   font-family: var(--font-sans);
   display: flex;
@@ -142,29 +139,27 @@ body {
   position: relative;
 }
 
-p,
-li {
+p, li {
   font-size: 1.1rem;
+  margin-bottom: 1rem; /* Adds space below paragraphs and list items */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: 600;
   line-height: 1.25;
+  margin-top: 2rem; 
+  margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 2.3rem;
-  font-weight: 600;
+  font-weight: 700; /* Makes h1 more bold */
 }
 
 h2 {
   font-size: 1.6rem;
+  font-weight: 700; /* Adjusts the boldness for clarity */
 }
 
 h3 {
@@ -178,7 +173,10 @@ h4 {
 hr {
   border: none;
   border-bottom: 1px solid var(--light-gray);
+  margin-top: 2rem; /* Adds space above horizontal rules */
+  margin-bottom: 2rem; /* Adds space below horizontal rules */
 }
+
 
 blockquote {
   font-style: italic;

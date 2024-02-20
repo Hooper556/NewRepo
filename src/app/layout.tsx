@@ -160,7 +160,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 height={40}
                 className="rounded-[10px]"
               />
-              <h1 className="text-white font-bold text-3xl hidden sm:block">Keen Betting</h1>
+              <div className="text-white font-bold text-3xl hidden sm:block">Keen betting</div>
             </Link>
             <nav className="flex flex-row">
               <Link href="/blog" className="text-white font-semibold px-4 hover:text-gray-200">
