@@ -18,9 +18,9 @@ export async function generateMetadata(
   const sport = sportMap[params.sport] || params.sport;
 
   return {
-    title: 'Download Keen, where you can shop odds in 21 books & never miss the best betting line 👑.',
+    title: 'Download Keen, where you can shop odds in 21 books 👑.',
     openGraph: {
-      description: "Download Keen, where you can shop odds in 21 books & never miss the best betting line 👑.",
+      description: "Download Keen, where you can shop odds in 21 books 👑.",
       images: [
         {
           url: `${UNFURL_API}/keen/odds-shop?sport=${sport}&eventId=${params.eventId}`,
@@ -33,13 +33,13 @@ export async function generateMetadata(
     twitter: {
       card: "summary_large_image",
       site: "@Keen_Betting", // Optional: specify if you have a Twitter username
-      title: 'Download Keen, where you can shop odds in 21 books & never miss the best betting line 👑.',
-      description: "Explore and compare odds across top sportsbooks with Keen.",
+      title: 'Keen betting',
+      description: "Keen betting",
       images: [
         {
           url: `${UNFURL_API}/keen/odds-shop?sport=${sport}&eventId=${params.eventId}`,
-          width: 1200,
-          height: 630,
+          width: 600,
+          height: 315,
           alt: "Keen Betting",
         },
       ],
