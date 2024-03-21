@@ -30,6 +30,20 @@ export async function generateMetadata(
         },
       ],
     },
+    twitter: {
+      card: "summary_large_image",
+      site: "@YourTwitterHandle", // Optional: specify if you have a Twitter username
+      title: 'Download Keen, where you can shop odds in 21 books & never miss the best betting line 👑.',
+      description: "Explore and compare odds across top sportsbooks with Keen.",
+      images: [
+        {
+          url: `${UNFURL_API}/keen/odds-shop?sport=${sport}&eventId=${params.eventId}`,
+          width: 1200,
+          height: 630,
+          alt: "Keen Betting",
+        },
+      ],
+    },
   };
 }
 
