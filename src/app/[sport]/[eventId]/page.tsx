@@ -18,9 +18,9 @@ export async function generateMetadata(
   const sport = sportMap[params.sport] || params.sport;
 
   return {
-    title: 'Download Keen, the only app that lets you shop odds in 21 books & never miss the best betting line.',
+    title: 'Download Keen, where you can shop odds in 21 books & never miss the best betting line 👑.',
     openGraph: {
-      description: "Download Keen, the only app that lets you shop odds in 21 books & never miss the best betting line.",
+      description: "Download Keen, where you can shop odds in 21 books & never miss the best betting line 👑.",
       images: [
         {
           url: `${UNFURL_API}/keen/odds-shop?sport=${sport}&eventId=${params.eventId}`,
