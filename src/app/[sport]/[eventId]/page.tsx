@@ -9,7 +9,15 @@ type Props = {
   params: { sport: string, eventId: string; };
 };
 
-const sportMap = { 'NCAAB': 'basketball_ncaab' };
+const sportMap = {
+  'NCAAB': 'basketball_ncaab',
+  'MMA': 'mma_mixed_martial_arts',
+  'NBA': 'basketball_nba',
+  'Boxing': 'boxing_boxing',
+  'NHL': 'icehockey_nhl',
+  'MLB': 'baseball_mlb',
+  'MLS': 'soccer_mls',
+};
 
 export async function generateMetadata(
   { params }: Props,
