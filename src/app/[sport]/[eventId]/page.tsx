@@ -41,7 +41,7 @@ export async function generateMetadata(
     twitter: {
       card: "summary_large_image",
       site: "@Keen_Betting", // Optional: specify if you have a Twitter username
-      title: 'Keen betting',
+      title: 'Keen Betting',
       description: "Keen betting",
       images: [
         {
